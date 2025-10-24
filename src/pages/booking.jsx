@@ -194,24 +194,24 @@ export default function TableBooking() {
                     <CloseIcon />
                 </IconButton>
                 <DialogContent dividers>
-                    <Typography gutterBottom>
+                    <p gutterBottom>
                         Vi har mottatt forespørselen din og kontakter deg snart for å bekrefte bordet ditt hos{' '}
                         <strong>Fusion Eats</strong>.
-                    </Typography>
-                    <Typography gutterBottom>
+                    <p>
+                    <p gutterBottom>
                         Vi ser frem til å ønske deg velkommen til en kveld fylt med smaker fra hele verden.
                         Kombinasjonen av nordisk kvalitet og internasjonale krydder gir deg en opplevelse utenom det vanlige.
-                    </Typography>
-                    <Typography gutterBottom>
+                    </p>
+                    <p gutterBottom>
                         I mellomtiden kan du ta en titt på menyen vår her:{' '}
                         <a href={`${baseUrl}/menu`} target="_blank">
                             {`${baseUrl}/menu`}
                         </a>
-                    </Typography>
-                    <Typography gutterBottom>
+                    </p>
+                    <p gutterBottom>
                         Hvis du ønsker å endre eller avbestille reservasjonen, ta kontakt på{' '}
                         <strong>booking@fusioneats.no</strong> eller ring oss på <strong>+47 51 22 33 44</strong>.
-                    </Typography>
+                    </p>
                 </DialogContent><DialogActions>
                     <Button autoFocus onClick={handleClose}>
                         OK
