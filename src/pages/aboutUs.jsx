@@ -37,7 +37,8 @@ export const AboutUs = () => {
                 >
                     <Box
                         sx={{
-                            backgroundColor: fusionEatsTheme.palette.background.elevation2,
+color 'white',                          
+backgroundColor: fusionEatsTheme.palette.background.elevation2,
                             width: '35vw',
                             borderRadius: '1rem',
                             marginTop: '2rem',
@@ -45,7 +46,7 @@ export const AboutUs = () => {
                         }}
                     >
                         <h3 style={{fontWeight: '700', color: fusionEatsTheme.palette.secondary.main}}>FusionEats</h3>
-                        <p>
+                        <p style={{color:'white'}}>
                             <strong style={{ color: fusionEatsTheme.palette.secondary.main }}>FusionEats</strong> er en moderne restaurant som
                             kombinerer det beste fra asiatisk og europeisk matkunst. Vi ønsker å gi gjestene våre en
                             unik matopplevelse i en varm og lun atmosfære – perfekt for både familier, venner og
