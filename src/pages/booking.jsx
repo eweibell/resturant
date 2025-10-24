@@ -44,13 +44,12 @@ export default function TableBooking() {
                     alignItems: 'center',
                 }}
             >
-                <Typography
-                    variant="h3"
+                <h1
                     sx={{
                         margin: '2rem',
                     }}
                 >
-                    Book et bord</Typography>
+                    Book et bord</h1>
                 <Box
                     sx={{
                         display: 'flex',
