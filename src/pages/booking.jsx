@@ -196,7 +196,7 @@ export default function TableBooking() {
                     <p gutterBottom>
                         Vi har mottatt forespørselen din og kontakter deg snart for å bekrefte bordet ditt hos{' '}
                         <strong>Fusion Eats</strong>.
-                    <p>
+                    </p>
                     <p gutterBottom>
                         Vi ser frem til å ønske deg velkommen til en kveld fylt med smaker fra hele verden.
                         Kombinasjonen av nordisk kvalitet og internasjonale krydder gir deg en opplevelse utenom det vanlige.
