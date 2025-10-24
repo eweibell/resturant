@@ -90,8 +90,8 @@ export const Menu = () => {
                             }}}>
                                 <img class="menu-img" src={dish.image} alt={dish.name} style={{width:'100%', objectFit: 'cover', borderRadius: '5%'}}/>
                             </Box>
-                            <Typography variant="h5">{dish.name}</Typography>
-                            <Typography>{dish.description}</Typography>
+                            <h3>{dish.name</h3>
+                            <p>{dish.description}</p>
                         </Box>
                     ))}
                 </Box>
