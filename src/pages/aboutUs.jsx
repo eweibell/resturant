@@ -44,13 +44,13 @@ export const AboutUs = () => {
                             padding: '1rem',
                         }}
                     >
-                        <Typography variant="h5" style={{fontWeight: '700', color: fusionEatsTheme.palette.secondary.main}}>FusionEats</Typography>
-                        <Typography>
+                        <h3 style={{fontWeight: '700', color: fusionEatsTheme.palette.secondary.main}}>FusionEats</h3>
+                        <p>
                             <strong style={{ color: fusionEatsTheme.palette.secondary.main }}>FusionEats</strong> er en moderne restaurant som
                             kombinerer det beste fra asiatisk og europeisk matkunst. Vi ønsker å gi gjestene våre en
                             unik matopplevelse i en varm og lun atmosfære – perfekt for både familier, venner og
                             kollegaer. Hos oss står ferske råvarer, gode smaker og hyggelig service i sentrum.
-                        </Typography>
+                        </p>
                     </Box>
                     <Box
                         sx={{
@@ -61,15 +61,15 @@ export const AboutUs = () => {
                             padding: '1rem',
                         }}
                     >
-                        <Typography variant="h5" style={{fontWeight: '700', color: fusionEatsTheme.palette.secondary.main}}>Kontaktinformasjon:</Typography>
-                        <Typography>
+                        <h3 style={{fontWeight: '700', color: fusionEatsTheme.palette.secondary.main}}>Kontaktinformasjon:</h3>
+                        <p>
                             Adresse: Kongsgata 14, 4005 Stavanger<br/>
                             Telefon: 51 22 33 44<br/>
                             E-post: kontakt@fusioneats.no<br/>
                             <br/>
                             Du finner oss midt i sentrum, bare et par minutter unna torget. Det er både parkering og bussholdeplass rett i nærheten.<br/>
                             Vi svarer vanligvis på e-post innen 24 timer.
-                        </Typography>
+                        </p>
                     </Box>
                     <Box
                         sx={{
@@ -79,7 +79,7 @@ export const AboutUs = () => {
                             marginTop: '2rem',
                             padding: '1rem',
                         }}>
-                        <Typography variant="h5" style={{fontWeight: '700', marginBottom: '1rem',color: fusionEatsTheme.palette.secondary.main}}>Åpningstider</Typography>
+                        <h3 style={{fontWeight: '700', marginBottom: '1rem',color: fusionEatsTheme.palette.secondary.main}}>Åpningstider</h3>
 
                         <Grid container spacing={2}>
                             <Grid size={6}>
