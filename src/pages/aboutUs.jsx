@@ -37,7 +37,7 @@ export const AboutUs = () => {
                 >
                     <Box
                         sx={{
-color 'white',                          
+color: 'white',
 backgroundColor: fusionEatsTheme.palette.background.elevation2,
                             width: '35vw',
                             borderRadius: '1rem',
